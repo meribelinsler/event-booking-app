@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 8px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.card {
+    background-color: white;
+    padding: 24px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button {
+    background-color: darkgreen;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: forestgreen;
+}
+
+.message {
+    padding: 12px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.success {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.error {
+    background-color: mistyrose;
+    color: darkred;
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.available {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+.ended {
+    background-color: lightgray;
+    color: dimgray;
+}
+.booking-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.booking-item form {
+    margin: 0;
+}
+
+.cancel-button {
+    background-color: darkred;
+    padding: 8px 14px;
+}
+
+.cancel-button:hover {
+    background-color: firebrick;
+}
+
+h4 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
